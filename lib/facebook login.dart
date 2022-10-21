@@ -48,6 +48,7 @@ class login extends StatelessWidget {
                           if (value == null || value.isEmpty) {
                             return 'please enter Email';
                           }
+                          //
                           else {
                             return null;
                           }
